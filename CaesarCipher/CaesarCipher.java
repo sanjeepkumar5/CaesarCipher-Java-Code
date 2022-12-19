@@ -10,7 +10,7 @@ public class CaesarCipher
 	 public String CaesarCipher(String str, int num)
 	 {
 		 StringBuilder result = new StringBuilder("");
-	     for (char c : str.toCharArray())
+	         for (char c : str.toCharArray())
 	     {
 	    	 int index = az.indexOf(c);
 	         if (index != -1)
@@ -47,7 +47,7 @@ public class CaesarCipher
 	 	{
 	 		
 		  Scanner s = new Scanner(System.in);
-	      CaesarCipher c = new CaesarCipher();
+	          CaesarCipher c = new CaesarCipher();
 	      
 	      System.out.print(c.CaesarCipher(s.nextLine(), s.nextInt()));
 	    }
