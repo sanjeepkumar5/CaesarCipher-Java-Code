@@ -49,7 +49,7 @@ public class CaesarCipher
 		  Scanner s = new Scanner(System.in);
 	          CaesarCipher c = new CaesarCipher();
 	      
-	      System.out.print(c.CaesarCipher(s.nextLine(), s.nextInt()));
+	          System.out.print(c.CaesarCipher(s.nextLine(), s.nextInt()));
 	    }
 	}
 //Input:Hello
